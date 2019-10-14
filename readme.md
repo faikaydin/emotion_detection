@@ -17,18 +17,18 @@ There are two types of training, dry and transfer.
 
 For best performance (and the one that generated model.h5) please use 'transfer'
 
-######For Transfer you must specify where the fer dataset is downloaded (runner.py, line 25)
+###### For Transfer you must specify where the fer dataset is downloaded (runner.py, line 25)
 
-######python runner.py <file-holding-original-data> transfer
+###### python runner.py <file-holding-original-data> transfer
 
-######example: python runner.py ~/Downloads/Face_data_split/ transfer
+###### example: python runner.py ~/Downloads/Face_data_split/ transfer
 
 
 Dry train only trains with the dataset you've sent (which has poor performance)
 
-######python runner.py <file-holding-original-data> dry
+###### python runner.py <file-holding-original-data> dry
 
-######example: python runner.py ~/Downloads/Face_data_split/ transfer
+###### example: python runner.py ~/Downloads/Face_data_split/ transfer
 
 #### For evaluation of test set and generate the predicted version of the test set
 ###### generate_predictions.py
